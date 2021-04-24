@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(36, 80, 163);
+    font-family: 'Tajawal', sans-serif;
+}
+.he{
+    width: 200px;
+    margin: 50px auto;
+}
+.profile{
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+a{
+    color: red;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+}
+body{
+    background-color: chartreuse;
+}
+.container{
+    padding: 20px 0; 
+    background-color: rgb(182, 104, 41);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 360px;
+    margin:  50px auto;
+}
+.container p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container .title {
+    font-size: 50px;
+    font-weight: bold;
+}
+.container h2{
+    color: blue;
+    font-weight: 500;
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+}
+/* FOOTER */
+footer{
+    font-size: 25px;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
+.msg{
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
